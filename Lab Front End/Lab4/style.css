@@ -1,0 +1,386 @@
+body{
+    background-image: url(/image/journey.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+
+    width: 100%;    
+    font-family: Verdana;
+    line-height: 1.4;
+    color: white; 
+}
+*,
+*:before,
+*::after{
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+
+.container{
+    width: 100%;
+    max-width:1210px;
+    margin: 0 auto;
+}
+
+ /* HEADER */
+ 
+ header{
+     background-color: rgba(0, 0, 0, .41);
+     padding:1%;
+ }
+ .header{
+    width: 100%;
+    position:absolute ;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+ }
+ 
+ .Journey{
+     font-size: 30px;
+     color:#fff;
+     font-weight: 700;
+     float: left;
+      
+ }
+.Journey:hover{
+    transform: .15s;
+    color:#3cb878   ;
+}
+.image_smal{
+    float:right;
+}
+
+.img{
+    display: inline-block;
+    vertical-align: top;
+    margin: 13px 12px;
+    filter: brightness(1);
+}
+    
+.img:hover{
+    /* filter: hue-rotate(4455deg) brightness(9) saturate(90%); */
+    filter: brightness(0.7);
+}
+
+#img3{
+    padding-right: 9px;  
+}
+
+
+ /* MAIN */
+.a{ 
+    float: right;
+    margin-top: 10px;
+    border-left: 2px solid #33312f;
+    padding-left: 16px;
+    text-decoration: none;
+    color:#fff;
+}
+.span{
+    
+    color: #3cb878;
+}
+.span:hover{
+    text-decoration: underline;
+    text-decoration-color: #3cb878;
+}
+
+.background{    
+    width: 444px;
+    height: 600px;
+    background-color: #fff;
+    border-radius: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    padding-left: 4%;
+    padding-right: 4%;
+    position: relative;
+}
+
+.background:before{
+    content: '';
+    width: 18px;
+    height: 18px;
+    background-color:#3cb878;
+    position:absolute;
+    left: 0;
+    top:40px
+}
+
+.sig{
+    float:left;
+    color:black;
+    font-size: 25px;
+    margin-top: 31px;
+}
+
+#span{
+    float: right;
+    color: #3cb878;
+    text-decoration: none;
+    margin-top: 39px;
+    font-size: 18px;
+}
+
+#span:hover{
+    text-decoration: underline;
+    text-decoration-color: #3cb878;
+}
+
+
+/* BUTTON */
+.buttoms{
+    display: flex;
+    justify-content: space-between;
+    position:relative;
+    top: 7px;
+    width: 100%;
+    margin-bottom: 33px;
+    font-family: inherit;
+}
+.fecebook{
+    text-decoration: none;
+    
+}
+.but_face{
+    width: 157px;
+    height: 46px;
+    background-color: #305db8;
+    border: none;
+    border-radius: 5px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+    
+}
+
+.but_face:hover{
+    background-color: #264b96;
+    transition: 0.3s;
+}
+
+.google{
+    text-decoration: none;
+}
+
+.but_goog{
+    width: 157px;
+    height: 46px;
+    background-color: #df4a32;
+    border: none;
+    border-radius: 5px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+}
+.but_goog:hover{
+    background-color: #c3412c;
+    transform: .3s;
+}
+
+.text_button{
+    font-size: 16px;
+    color: #fff;
+    line-height: 21px;
+    padding-top: 1px;    
+}
+
+.butt{
+    /* margin-right: 15px; */
+    /* border-right: 1px solid rgba(0, 0, 0, .1); */
+}
+
+/* .but_goog:before{
+
+    content: '';
+    width: 1px;
+    height: 28px;
+    background-color: rgba(0, 0,0, .1);
+    margin-right: 3px;
+    
+} */
+
+
+/* ЛІНІЯ */
+.or-line{
+    display: flex;
+    justify-content: center;
+    font-weight: normal;
+    line-height: 21px;
+    color: #848484;
+    position: relative;
+    margin-bottom: 19px;
+    
+}
+.or-line::before{
+    content: '';
+    height: 1px;
+    width: 135px;
+    background-color: #eaeaea;
+    margin-top: 10px;
+    position: absolute;
+    left: 0;
+    
+    
+    
+}
+    .or-line::after{
+    content: '';
+    height: 1px;
+    width: 135px;
+    background-color: #eaeaea;
+    margin-top: 10px;
+    position: absolute;
+    right: 0;
+    
+} 
+
+/* СПИСОК */
+.input-place{
+    margin-bottom: 19px;
+}
+.input-txt{
+    width: 100%;
+    font-family: Verdana;
+    line-height: 21px;
+    padding-left: 18px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: 1px solid #eaeaea;
+    border-radius: 2px;
+    display: block;
+  
+    
+}
+
+
+.input-txt:active,  .input-txt:focus {
+    outline: 0;
+    outline-offset: 0;
+    border: none;
+    box-shadow: 2px 2px 6px 1px rgba(0,0,0,.21); /* Параметры тени */
+    transition: 0.3s;
+ 
+}
+
+.input-txt:not(:last-child){
+margin-bottom: 9px;
+}
+
+/*  */
+
+.checkbox-box{
+ 
+    margin-bottom: 19px;
+   
+}
+
+.checkbox-title{
+    color: #3cb878;
+    
+}
+
+.checkbox-title:hover{
+    text-decoration:  underline;
+    text-decoration-color: #b1e3c9;
+ 
+
+}
+
+input[type="checkbox"] {
+    display: none;
+  }
+   
+  /* стили для метки */
+  .label-checkbox {
+    color: #000;
+    cursor: default;
+    font-weight: normal;
+    line-height: 21px;
+    padding: 10px 0;
+    vertical-align: middle;
+  }
+   
+  /* формируем внешний вид чекбокса в псевдоэлементе before */
+  .label-checkbox:before {
+    content: " ";
+    color: #000;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    margin-right: 5px;
+    width: 20px;
+    height: 20px;
+    background: #FFF;
+    border: 1px solid #eaeaea;
+    border-radius: 3px;
+    border-image: initial;
+    vertical-align: middle;
+  }
+   
+  
+  .checkbox-square:checked + .label-checkbox:before {
+    content: url(../image/checkbox.png);
+    padding-top: 4px;
+    padding-left: 1px;
+    
+  }
+  
+  .checkbox-square:disabled + .label-checkbox:before {
+    background: #eee;
+    color: #aaa;
+  }
+
+  .button-btn{
+    background-color: #3cb878;
+    border: none;
+    color: white;
+    padding: 17px 105px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .button-btn:hover{
+      background-color: #329a65;
+      transition: 0.3s;
+  }
+
+
+
+
+
+
+
+
+
+
+/* навчання псевдо елементи
+text{
+    font-size: 24px;
+    margin: 0px,0px,30px,0px;
+}
+.text::first-line{
+    color:aqua;
+}
+.text::first-letter{
+    color:blueviolet;
+}
+.text:before{
+    content: "<";
+}
+.text:after{
+    content: ">";
+} */

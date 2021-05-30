@@ -1,0 +1,144 @@
+.container{
+width: 1280px;
+margin: 0 auto;
+max-width: 1000%;
+}
+.logo{
+    font-family: Myriad Pro;
+    font-size: 80px;
+    margin-top: 60px;
+}
+
+.logo a{
+    text-decoration: none;
+    color: black;
+}
+
+span{
+color: #4bcaff; 
+}
+
+.menu{
+    margin-top: 45px;
+    background-color: #35444f;
+    line-height: 70px;
+    text-align: center;
+}
+
+.menu-item{
+    display: inline-block;
+    font-family: Myriad Pro;
+    font-size: 24px;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-decoration: none;
+    color: #fff;
+	transition: color .2s linear;
+}
+
+.menu-item:hover{
+color: #bca2af;
+
+background: #222f3a;
+box-shadow: -1px 0px 0px 0px #dbdbdb, 1px 0px 0px 0px #dbdbdb;
+}
+
+.sidebar {
+    margin-top: 40px;
+    width: 340px;
+    float: left;
+}
+
+.side-menu{
+    
+    border: 1px solid black;
+    padding: 0;
+    margin: 0;    
+}
+.item{
+    display: inline-block;
+    font-family: Myriad Pro;
+    font-size: 27px;
+    color: #485863;
+    vertical-align: top;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    padding-right: 100px;
+}
+
+.item:hover{
+    width: 198px;
+    color: #000;
+    background: #dbdbdb;
+}
+
+.main-block{
+float: right;
+margin-top: 40px;
+
+
+}
+.picture{
+    padding: 75px 280px;
+    transition: 1s;
+	overflow: hidden;
+
+} 
+
+.img-block{
+    border: 1px solid #35444f;
+}
+
+.picture:hover{
+
+   transform:  scale(1.1);
+}
+.text-block{
+   
+    margin-top: 30px;
+    margin-left: 30px;
+    font-family: Myriad Pro;
+    font-size: 18px;
+    line-height: 24px;
+    width: 882px;
+    text-align: left;
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* Footer */
+.footermenu{
+    margin-top: 900px;
+    background-color: #b4b7ba;
+    line-height: 70px;
+    margin-bottom: 0;
+}
+
+.footer_item{
+    display: inline-block;
+	font-family: Myriad Pro;
+	font-size: 28px;
+	color: #0c1927;
+	padding-left: 20px;
+	text-decoration: none;
+}
+
+.footer_item:hover{
+    color:#3181a6;
+    text-decoration: solid underline #3181a6 ;
+    
+}
+
+.copiright{
+	position: relative;
+	font-family: Myriad Pro;
+	font-size: 28px;
+	color: #0c1927;
+	float: right;
+	top: -55px;
+	padding-right: 30px;
+
+}
+
+
